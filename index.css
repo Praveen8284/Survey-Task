@@ -1,0 +1,56 @@
+.checked {
+    color: rgb(89, 0, 255);
+}
+
+.form-box {
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+}
+
+.table thead th {
+    text-align: center;
+}
+
+.table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.star-rating {
+    direction: rtl;
+    display: inline-flex;
+    font-size: 24px;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    color: #ddd;
+    font-size: 24px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: orange;
+}
+
+
